@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{302BA5CB-D3B6-31B1-BB0C-D5C00BA4E402}</ProjectGuid>
+    <RootNamespace>Wandering-Around-Classroom-main</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>Wandering-Around-Classroom-main</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>Wandering-Around-Classroom-main</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>Wandering-Around-Classroom-main</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>Wandering-Around-Classroom-main</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Wandering-Around-Classroom-main</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Wandering-Around-Classroom-main</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Wandering-Around-Classroom-main</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Wandering-Around-Classroom-main</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\include;"C:\Users\1\Desktop\three1\computer_graphs\final\vender\include";$(IncludePath)</IncludePath>
+    <LibraryPath>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs";"C:\Users\1\Desktop\three1\computer_graphs\final\vender\libs";$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\include";"C:\Users\1\Desktop\three1\computer_graphs\final\vender\include";$(IncludePath)</IncludePath>
+    <LibraryPath>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs";"C:\Users\1\Desktop\three1\computer_graphs\final\vender\libs";$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\include";$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs";$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs";$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\include;D:\Apps\QT\6.8.0\msvc2022_64\include;D:\Apps\QT\6.8.0\msvc2022_64\include\QtOpenGLWidgets;D:\Apps\QT\6.8.0\msvc2022_64\include\QtOpenGL;D:\Apps\QT\6.8.0\msvc2022_64\include\QtWidgets;D:\Apps\QT\6.8.0\msvc2022_64\include\QtGui;D:\Apps\QT\6.8.0\msvc2022_64\include\QtCore;release;/include;D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 -w34100 -w34189 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;NDEBUG;QT_NO_DEBUG;QT_OPENGLWIDGETS_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>
+      </ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\Assimp\assimp-vc143-mtd.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\glew32d.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\glew32s.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\libglew32d.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLFW\glfw3.lib"</AdditionalDependencies>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\Wandering-Around-Classroom-main.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;NDEBUG;QT_NO_DEBUG;QT_OPENGLWIDGETS_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\include";D:\Apps\QT\6.8.0\msvc2022_64\include;D:\Apps\QT\6.8.0\msvc2022_64\include\QtOpenGLWidgets;D:\Apps\QT\6.8.0\msvc2022_64\include\QtOpenGL;D:\Apps\QT\6.8.0\msvc2022_64\include\QtWidgets;D:\Apps\QT\6.8.0\msvc2022_64\include\QtGui;D:\Apps\QT\6.8.0\msvc2022_64\include\QtCore;release;/include;D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 -w34100 -w34189 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;NDEBUG;QT_NO_DEBUG;QT_OPENGLWIDGETS_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>
+      </ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLFW\glfw3.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\glew32s.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\glew32d.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\libglew32d.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\Assimp\assimp-vc143-mtd.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\Wandering-Around-Classroom-main.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;NDEBUG;QT_NO_DEBUG;QT_OPENGLWIDGETS_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\include";.;D:\Apps\QT\6.8.0\msvc2022_64\include;D:\Apps\QT\6.8.0\msvc2022_64\include\QtOpenGLWidgets;D:\Apps\QT\6.8.0\msvc2022_64\include\QtOpenGL;D:\Apps\QT\6.8.0\msvc2022_64\include\QtWidgets;D:\Apps\QT\6.8.0\msvc2022_64\include\QtGui;D:\Apps\QT\6.8.0\msvc2022_64\include\QtCore;debug;/include;D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 -w34100 -w34189 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;QT_OPENGLWIDGETS_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\Assimp\assimp-vc143-mtd.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\glew32d.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\glew32s.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\libglew32d.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLFW\glfw3.lib"</AdditionalDependencies>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\Wandering-Around-Classroom-main.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>"C:\Users\1\Desktop\three1\computer_graphs\final\vender\libs";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;QT_OPENGLWIDGETS_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\include";.;D:\Apps\QT\6.8.0\msvc2022_64\include;D:\Apps\QT\6.8.0\msvc2022_64\include\QtOpenGLWidgets;D:\Apps\QT\6.8.0\msvc2022_64\include\QtOpenGL;D:\Apps\QT\6.8.0\msvc2022_64\include\QtWidgets;D:\Apps\QT\6.8.0\msvc2022_64\include\QtGui;D:\Apps\QT\6.8.0\msvc2022_64\include\QtCore;debug;/include;D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 -w34100 -w34189 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;QT_OPENGLWIDGETS_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLFW\glfw3.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\glew32s.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\glew32d.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\GLEW_2.1.0\libglew32d.lib";"C:\Users\1\Desktop\CG\Wandering-Around-Classroom-main\Wandering-Around-Classroom-main\vendor\libs\Assimp\assimp-vc143-mtd.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\Wandering-Around-Classroom-main.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>"C:\Users\1\Desktop\three1\computer_graphs\final\vender\libs";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DEPRECATED_WARNINGS;QT_OPENGLWIDGETS_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Scene\SimpleObject\3D\Box.cpp" />
+    <ClCompile Include="src\Scene\Camera.cpp" />
+    <ClCompile Include="src\Scene\Controller.cpp" />
+    <ClCompile Include="src\Scene\SimpleObject\3D\Cube.cpp" />
+    <ClCompile Include="src\RenderCore\IndexBuffer.cpp" />
+    <ClCompile Include="src\Scene\Light.cpp" />
+    <ClCompile Include="src\Scene\Mesh.cpp" />
+    <ClCompile Include="src\Scene\Model.cpp" />
+    <ClCompile Include="src\Scene\ModelInstances.cpp" />
+    <ClCompile Include="src\Scene\Particles.cpp" />
+    <ClCompile Include="src\RenderCore\Renderer.cpp" />
+    <ClCompile Include="src\RenderCore\Shader.cpp" />
+    <ClCompile Include="src\Scene\ShadowMap.cpp" />
+    <ClCompile Include="src\Scene\SkyBox.cpp" />
+    <ClCompile Include="src\Scene\SimpleObject\3D\Sphere.cpp" />
+    <ClCompile Include="src\RenderCore\Texture.cpp" />
+    <ClCompile Include="src\RenderCore\TextureCache.cpp" />
+    <ClCompile Include="src\RenderCore\VertexArray.cpp" />
+    <ClCompile Include="src\RenderCore\VertexBuffer.cpp" />
+    <ClCompile Include="src\RenderCore\VertexBufferLayout.cpp" />
+    <ClCompile Include="testobj.cpp" />
+    <ClCompile Include="vendor\include\glm\detail\glm.cpp" />
+    <ClCompile Include="vendor\include\stb\stb_vorbis.c" />
+    <ClCompile Include="src\test.cpp" />
+    <ClCompile Include="src\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vendor\include\Assimp\port\AndroidJNI\AndroidJNIIOSystem.h" />
+    <ClInclude Include="vendor\include\Assimp\AssertHandler.h" />
+    <ClInclude Include="vendor\include\Assimp\Base64.hpp" />
+    <ClInclude Include="vendor\include\Assimp\BaseImporter.h" />
+    <ClInclude Include="vendor\include\Assimp\Bitmap.h" />
+    <ClInclude Include="vendor\include\Assimp\BlobIOSystem.h" />
+    <ClInclude Include="src\Scene\SimpleObject\3D\Box.h" />
+    <ClInclude Include="vendor\include\Assimp\port\AndroidJNI\BundledAssetIOSystem.h" />
+    <ClInclude Include="vendor\include\Assimp\ByteSwapper.h" />
+    <ClInclude Include="src\Scene\Camera.h" />
+    <ClInclude Include="vendor\include\Assimp\ColladaMetaData.h" />
+    <ClInclude Include="src\Scene\ControlledObject.h" />
+    <ClInclude Include="src\Scene\Controller.h" />
+    <ClInclude Include="vendor\include\Assimp\CreateAnimMesh.h" />
+    <ClInclude Include="src\GUI\Crosshair.h" />
+    <ClInclude Include="src\Scene\SimpleObject\3D\Cube.h" />
+    <ClInclude Include="vendor\include\Assimp\DefaultIOStream.h" />
+    <ClInclude Include="vendor\include\Assimp\DefaultIOSystem.h" />
+    <ClInclude Include="vendor\include\Assimp\DefaultLogger.hpp" />
+    <ClInclude Include="src\Scene\SimpleObject\2D\EntityObject2D.h" />
+    <ClInclude Include="src\Scene\SimpleObject\3D\EntityObject3D.h" />
+    <ClInclude Include="vendor\include\Assimp\Exceptional.h" />
+    <ClInclude Include="vendor\include\Assimp\Exporter.hpp" />
+    <ClInclude Include="vendor\include\Assimp\GenericProperty.h" />
+    <ClInclude Include="src\Global.h" />
+    <ClInclude Include="vendor\include\Assimp\GltfMaterial.h" />
+    <ClInclude Include="vendor\include\Assimp\Hash.h" />
+    <ClInclude Include="vendor\include\Assimp\IOStream.hpp" />
+    <ClInclude Include="vendor\include\Assimp\IOStreamBuffer.h" />
+    <ClInclude Include="vendor\include\Assimp\IOSystem.hpp" />
+    <ClInclude Include="vendor\include\Assimp\Importer.hpp" />
+    <ClInclude Include="src\RenderCore\IndexBuffer.h" />
+    <ClInclude Include="src\Scene\Light.h" />
+    <ClInclude Include="vendor\include\Assimp\LineSplitter.h" />
+    <ClInclude Include="vendor\include\Assimp\LogAux.h" />
+    <ClInclude Include="vendor\include\Assimp\LogStream.hpp" />
+    <ClInclude Include="vendor\include\Assimp\Logger.hpp" />
+    <ClInclude Include="src\Scene\Material.h" />
+    <ClInclude Include="vendor\include\Assimp\MathFunctions.h" />
+    <ClInclude Include="vendor\include\Assimp\MemoryIOWrapper.h" />
+    <ClInclude Include="src\Scene\Mesh.h" />
+    <ClInclude Include="src\Scene\Model.h" />
+    <ClInclude Include="src\Scene\ModelInstances.h" />
+    <ClInclude Include="vendor\include\Assimp\NullLogger.hpp" />
+    <ClInclude Include="vendor\include\Assimp\ObjMaterial.h" />
+    <ClInclude Include="vendor\include\Assimp\ParsingUtils.h" />
+    <ClInclude Include="src\Scene\Particles.h" />
+    <ClInclude Include="src\Scene\SimpleObject\2D\Plane.h" />
+    <ClInclude Include="vendor\include\Assimp\Profiler.h" />
+    <ClInclude Include="vendor\include\Assimp\ProgressHandler.hpp" />
+    <ClInclude Include="vendor\include\Assimp\RemoveComments.h" />
+    <ClInclude Include="src\RenderCore\Renderer.h" />
+    <ClInclude Include="vendor\include\Assimp\SGSpatialSort.h" />
+    <ClInclude Include="vendor\include\Assimp\SceneCombiner.h" />
+    <ClInclude Include="src\RenderCore\Shader.h" />
+    <ClInclude Include="src\Scene\ShadowMap.h" />
+    <ClInclude Include="vendor\include\Assimp\SkeletonMeshBuilder.h" />
+    <ClInclude Include="src\Scene\SkyBox.h" />
+    <ClInclude Include="vendor\include\Assimp\SmallVector.h" />
+    <ClInclude Include="vendor\include\Assimp\SmoothingGroups.h" />
+    <ClInclude Include="vendor\include\Assimp\SpatialSort.h" />
+    <ClInclude Include="src\Scene\SimpleObject\3D\Sphere.h" />
+    <ClInclude Include="vendor\include\Assimp\StandardShapes.h" />
+    <ClInclude Include="vendor\include\Assimp\StreamReader.h" />
+    <ClInclude Include="vendor\include\Assimp\StreamWriter.h" />
+    <ClInclude Include="vendor\include\Assimp\StringComparison.h" />
+    <ClInclude Include="vendor\include\Assimp\StringUtils.h" />
+    <ClInclude Include="vendor\include\Assimp\Subdivision.h" />
+    <ClInclude Include="src\RenderCore\Texture.h" />
+    <ClInclude Include="src\RenderCore\TextureCache.h" />
+    <ClInclude Include="vendor\include\Assimp\TinyFormatter.h" />
+    <ClInclude Include="src\Scene\Vertex.h" />
+    <ClInclude Include="vendor\include\Assimp\Vertex.h" />
+    <ClInclude Include="src\RenderCore\VertexArray.h" />
+    <ClInclude Include="src\RenderCore\VertexBuffer.h" />
+    <ClInclude Include="src\RenderCore\VertexBufferLayout.h" />
+    <ClInclude Include="vendor\include\Assimp\XMLTools.h" />
+    <ClInclude Include="vendor\include\Assimp\XmlParser.h" />
+    <ClInclude Include="vendor\include\Assimp\ZipArchiveIOSystem.h" />
+    <ClInclude Include="vendor\include\glm\detail\_features.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\_fixes.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\_noise.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\_swizzle.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\_swizzle_func.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\_vectorize.hpp" />
+    <ClInclude Include="vendor\include\Assimp\aabb.h" />
+    <ClInclude Include="vendor\include\Assimp\ai_assert.h" />
+    <ClInclude Include="vendor\include\Assimp\anim.h" />
+    <ClInclude Include="vendor\include\glm\gtx\associated_min_max.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\bit.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\bitfield.hpp" />
+    <ClInclude Include="vendor\include\Assimp\camera.h" />
+    <ClInclude Include="vendor\include\Assimp\cexport.h" />
+    <ClInclude Include="vendor\include\Assimp\cfileio.h" />
+    <ClInclude Include="vendor\include\Assimp\cimport.h" />
+    <ClInclude Include="vendor\include\glm\gtx\closest_point.hpp" />
+    <ClInclude Include="vendor\include\Assimp\color4.h" />
+    <ClInclude Include="vendor\include\glm\gtx\color_encoding.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\color_space.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\color_space.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\color_space_YCoCg.hpp" />
+    <ClInclude Include="vendor\include\glm\simd\common.h" />
+    <ClInclude Include="vendor\include\glm\common.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\common.hpp" />
+    <ClInclude Include="vendor\include\Assimp\commonMetaData.h" />
+    <ClInclude Include="vendor\include\glm\gtx\compatibility.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\component_wise.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\compute_common.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\compute_vector_relational.hpp" />
+    <ClInclude Include="vendor\include\Assimp\config.h" />
+    <ClInclude Include="vendor\include\glm\gtc\constants.hpp" />
+    <ClInclude Include="vendor\include\Assimp\defs.h" />
+    <ClInclude Include="vendor\include\glm\gtx\dual_quaternion.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\easing.hpp" />
+    <ClInclude Include="vendor\include\GLEW\eglew.h" />
+    <ClInclude Include="vendor\include\glm\gtc\epsilon.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\euler_angles.hpp" />
+    <ClInclude Include="vendor\include\glm\simd\exponential.h" />
+    <ClInclude Include="vendor\include\glm\exponential.hpp" />
+    <ClInclude Include="vendor\include\glm\ext.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\extend.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\extended_min_max.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\exterior_product.hpp" />
+    <ClInclude Include="vendor\include\Assimp\fast_atof.h" />
+    <ClInclude Include="vendor\include\glm\gtx\fast_exponential.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\fast_square_root.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\fast_trigonometry.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\functions.hpp" />
+    <ClInclude Include="vendor\include\glm\fwd.hpp" />
+    <ClInclude Include="vendor\include\glm\simd\geometric.h" />
+    <ClInclude Include="vendor\include\glm\geometric.hpp" />
+    <ClInclude Include="vendor\include\GLEW\glew.h" />
+    <ClInclude Include="vendor\include\GLFW\glfw3.h" />
+    <ClInclude Include="vendor\include\GLFW\glfw3native.h" />
+    <ClInclude Include="vendor\include\glm\glm.hpp" />
+    <ClInclude Include="vendor\include\GLEW\glxew.h" />
+    <ClInclude Include="vendor\include\glm\gtx\gradient_paint.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\handed_coordinate_space.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\hash.hpp" />
+    <ClInclude Include="vendor\include\Assimp\importerdesc.h" />
+    <ClInclude Include="vendor\include\glm\simd\integer.h" />
+    <ClInclude Include="vendor\include\glm\gtc\integer.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\integer.hpp" />
+    <ClInclude Include="vendor\include\glm\integer.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\intersect.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\io.hpp" />
+    <ClInclude Include="vendor\include\Assimp\light.h" />
+    <ClInclude Include="vendor\include\glm\gtx\log_base.hpp" />
+    <ClInclude Include="vendor\include\glm\mat2x2.hpp" />
+    <ClInclude Include="vendor\include\glm\mat2x3.hpp" />
+    <ClInclude Include="vendor\include\glm\mat2x4.hpp" />
+    <ClInclude Include="vendor\include\glm\mat3x2.hpp" />
+    <ClInclude Include="vendor\include\glm\mat3x3.hpp" />
+    <ClInclude Include="vendor\include\glm\mat3x4.hpp" />
+    <ClInclude Include="vendor\include\glm\mat4x2.hpp" />
+    <ClInclude Include="vendor\include\glm\mat4x3.hpp" />
+    <ClInclude Include="vendor\include\glm\mat4x4.hpp" />
+    <ClInclude Include="vendor\include\Assimp\material.h" />
+    <ClInclude Include="vendor\include\glm\simd\matrix.h" />
+    <ClInclude Include="vendor\include\glm\matrix.hpp" />
+    <ClInclude Include="vendor\include\Assimp\matrix3x3.h" />
+    <ClInclude Include="vendor\include\Assimp\matrix4x4.h" />
+    <ClInclude Include="vendor\include\glm\gtc\matrix_access.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_clip_space.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_common.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\matrix_cross_product.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\matrix_decompose.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double2x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double2x2_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double2x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double2x3_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double2x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double2x4_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double3x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double3x2_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double3x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double3x3_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double3x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double3x4_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double4x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double4x2_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double4x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double4x3_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double4x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_double4x4_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\matrix_factorisation.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float2x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float2x2_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float2x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float2x3_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float2x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float2x4_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float3x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float3x2_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float3x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float3x3_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float3x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float3x4_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float4x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float4x2_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float4x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float4x3_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float4x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_float4x4_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int2x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int2x2_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int2x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int2x3_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int2x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int2x4_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int3x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int3x2_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int3x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int3x3_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int3x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int3x4_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int4x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int4x2_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int4x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int4x3_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int4x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_int4x4_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\matrix_integer.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\matrix_interpolation.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\matrix_inverse.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\matrix_major_storage.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\matrix_operation.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_projection.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\matrix_query.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_relational.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_transform.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\matrix_transform.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\matrix_transform_2d.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint2x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint2x2_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint2x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint2x3_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint2x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint2x4_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint3x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint3x2_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint3x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint3x3_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint3x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint3x4_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint4x2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint4x2_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint4x3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint4x3_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint4x4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\matrix_uint4x4_sized.hpp" />
+    <ClInclude Include="vendor\include\Assimp\mesh.h" />
+    <ClInclude Include="vendor\include\Assimp\metadata.h" />
+    <ClInclude Include="vendor\include\glm\gtx\mixed_product.hpp" />
+    <ClInclude Include="vendor\include\glm\simd\neon.h" />
+    <ClInclude Include="vendor\include\glm\gtc\noise.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\norm.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\normal.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\normalize_dot.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\number_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\optimum_pow.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\orthonormalize.hpp" />
+    <ClInclude Include="vendor\include\glm\simd\packing.h" />
+    <ClInclude Include="vendor\include\glm\gtc\packing.hpp" />
+    <ClInclude Include="vendor\include\glm\packing.hpp" />
+    <ClInclude Include="vendor\include\Assimp\pbrmaterial.h" />
+    <ClInclude Include="vendor\include\glm\gtx\perpendicular.hpp" />
+    <ClInclude Include="vendor\include\glm\simd\platform.h" />
+    <ClInclude Include="vendor\include\glm\gtx\polar_coordinates.hpp" />
+    <ClInclude Include="vendor\include\Assimp\Compiler\poppack1.h" />
+    <ClInclude Include="vendor\include\Assimp\postprocess.h" />
+    <ClInclude Include="vendor\include\glm\gtx\projection.hpp" />
+    <ClInclude Include="vendor\include\Assimp\Compiler\pstdint.h" />
+    <ClInclude Include="vendor\include\Assimp\Compiler\pushpack1.h" />
+    <ClInclude Include="vendor\include\Assimp\qnan.h" />
+    <ClInclude Include="vendor\include\glm\detail\qualifier.hpp" />
+    <ClInclude Include="vendor\include\Assimp\quaternion.h" />
+    <ClInclude Include="vendor\include\glm\gtc\quaternion.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\quaternion.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\quaternion_common.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\quaternion_double.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\quaternion_double_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\quaternion_exponential.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\quaternion_float.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\quaternion_float_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\quaternion_geometric.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\quaternion_relational.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\quaternion_transform.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\quaternion_trigonometric.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\random.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\range.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\raw_data.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\reciprocal.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\rotate_normalized_axis.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\rotate_vector.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\round.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\scalar_common.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\scalar_constants.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\scalar_int_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\scalar_integer.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\scalar_multiplication.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\scalar_packing.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\scalar_relational.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\scalar_relational.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\scalar_uint_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\scalar_ulp.hpp" />
+    <ClInclude Include="vendor\include\Assimp\scene.h" />
+    <ClInclude Include="vendor\include\glm\detail\setup.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\spline.hpp" />
+    <ClInclude Include="vendor\include\stb\stb_c_lexer.h" />
+    <ClInclude Include="vendor\include\stb\stb_connected_components.h" />
+    <ClInclude Include="vendor\include\stb\stb_divide.h" />
+    <ClInclude Include="vendor\include\stb\stb_ds.h" />
+    <ClInclude Include="vendor\include\stb\stb_dxt.h" />
+    <ClInclude Include="vendor\include\stb\stb_easy_font.h" />
+    <ClInclude Include="vendor\include\stb\stb_herringbone_wang_tile.h" />
+    <ClInclude Include="vendor\include\stb\stb_hexwave.h" />
+    <ClInclude Include="vendor\include\stb\stb_image.h" />
+    <ClInclude Include="vendor\include\stb\stb_image_resize2.h" />
+    <ClInclude Include="vendor\include\stb\stb_image_write.h" />
+    <ClInclude Include="vendor\include\stb\stb_include.h" />
+    <ClInclude Include="vendor\include\stb\stb_leakcheck.h" />
+    <ClInclude Include="vendor\include\stb\stb_perlin.h" />
+    <ClInclude Include="vendor\include\stb\stb_rect_pack.h" />
+    <ClInclude Include="vendor\include\stb\stb_sprintf.h" />
+    <ClInclude Include="vendor\include\stb\stb_textedit.h" />
+    <ClInclude Include="vendor\include\stb\stb_tilemap_editor.h" />
+    <ClInclude Include="vendor\include\stb\stb_truetype.h" />
+    <ClInclude Include="vendor\include\stb\stb_voxel_render.h" />
+    <ClInclude Include="vendor\include\glm\gtx\std_based_type.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\string_cast.hpp" />
+    <ClInclude Include="vendor\include\Assimp\texture.h" />
+    <ClInclude Include="vendor\include\glm\gtx\texture.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\transform.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\transform2.hpp" />
+    <ClInclude Include="vendor\include\glm\simd\trigonometric.h" />
+    <ClInclude Include="vendor\include\glm\trigonometric.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\type_aligned.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\type_aligned.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_float.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_half.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_mat2x2.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_mat2x3.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_mat2x4.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_mat3x2.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_mat3x3.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_mat3x4.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_mat4x2.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_mat4x3.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_mat4x4.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\type_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\gtc\type_ptr.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_quat.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\type_trait.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_vec1.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_vec2.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_vec3.hpp" />
+    <ClInclude Include="vendor\include\glm\detail\type_vec4.hpp" />
+    <ClInclude Include="vendor\include\Assimp\types.h" />
+    <ClInclude Include="vendor\include\glm\gtc\ulp.hpp" />
+    <ClInclude Include="src\utils.h" />
+    <ClInclude Include="vendor\include\glm\gtc\vec1.hpp" />
+    <ClInclude Include="vendor\include\glm\vec2.hpp" />
+    <ClInclude Include="vendor\include\glm\vec3.hpp" />
+    <ClInclude Include="vendor\include\glm\vec4.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\vec_swizzle.hpp" />
+    <ClInclude Include="vendor\include\Assimp\vector2.h" />
+    <ClInclude Include="vendor\include\Assimp\vector3.h" />
+    <ClInclude Include="vendor\include\glm\gtx\vector_angle.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_bool1.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_bool1_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_bool2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_bool2_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_bool3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_bool3_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_bool4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_bool4_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_common.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_double1.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_double1_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_double2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_double2_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_double3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_double3_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_double4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_double4_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_float1.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_float1_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_float2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_float2_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_float3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_float3_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_float4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_float4_precision.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_int1.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_int1_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_int2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_int2_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_int3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_int3_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_int4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_int4_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_integer.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_packing.hpp" />
+    <ClInclude Include="vendor\include\glm\gtx\vector_query.hpp" />
+    <ClInclude Include="vendor\include\glm\simd\vector_relational.h" />
+    <ClInclude Include="vendor\include\glm\ext\vector_relational.hpp" />
+    <ClInclude Include="vendor\include\glm\vector_relational.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_uint1.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_uint1_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_uint2.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_uint2_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_uint3.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_uint3_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_uint4.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_uint4_sized.hpp" />
+    <ClInclude Include="vendor\include\glm\ext\vector_ulp.hpp" />
+    <ClInclude Include="vendor\include\Assimp\version.h" />
+    <ClInclude Include="vendor\include\GLEW\wglew.h" />
+    <ClInclude Include="vendor\include\glm\gtx\wrap.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -BxD:\Apps\QT\6.8.0\msvc2022_64\bin\qmake.exe -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -Zi -MDd -std:c++17 -utf-8 -E D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cl -BxD:\Apps\QT\6.8.0\msvc2022_64\bin\qmake.exe -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -Zi -MDd -std:c++17 -utf-8 -E D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_predefs.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -BxD:\Apps\QT\6.8.0\msvc2022_64\bin\qmake.exe -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -O2 -MD -std:c++17 -utf-8 -E D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cl -BxD:\Apps\QT\6.8.0\msvc2022_64\bin\qmake.exe -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -O2 -MD -std:c++17 -utf-8 -E D:\Apps\QT\6.8.0\msvc2022_64\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_predefs.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\moc_predefs.h;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

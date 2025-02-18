@@ -1,0 +1,14 @@
+# 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
+# File Created: 13.12.2024 21:38:42
+
+newmtl Mahogany_Varnished
+Ns 10.0000          # 保持高光柔和
+Ni 1.5000
+d 1.0000
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 2
+Ka 0.9 0.7 0.5      # 环境光：接近浅棕色，亮度更高
+Kd 0.9 0.7 0.5      # 漫反射：明亮的浅棕色
+Ks 0.2 0.2 0.2      # 镜面反射较低，减少影响
+Ke 0.0000 0.0000 0.0000
